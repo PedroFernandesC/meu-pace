@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Pace - Calcule Seu Ritmo Médio de Corrida</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Saira:ital,wght@1,300&display=swap" rel="stylesheet">
+    
+</head>
+<body id="bg">
+
+    <div>
+    <header class="cabecalho">
+    <h1>Meu Pace</h1>
+    </header>
+    </div>
+
+    <h3>Olá, seja bem vindo ao site Meu Pace. Para calcular seu ritmo de corrida preencha as colunas abaixo!</h3>
+    
+    <div class="botoes">
+        <label for="horas">Horas:</label>
+        <input type="number" id="horas" min="0" value="0"><br>
+        <label for="minutos">Minutos (máx. 59):</label>
+        <input type="number" id="minutos" min="0" max="59" value="0"><br>
+        <label for="segundos">Segundos (máx. 59):</label>
+        <input type="number" id="segundos" min="0" max="59" value="0"><br>
+        <label for="km">Quilômetros:</label>
+        <input type="number" id="km" min="0" value="0"><br>
+        <label for="m">Metros (máx. 999):</label>
+        <input type="number" id="m" min="0" max="999" value="0"><br><br>
+        <button id="calcular">Calcular Pace</button>
+        <h2 id="resultado"></h2>
+        <script src="script.js"></script>
+    </div>
+
+<div>
+ <main></main>
+    <footer>
+        <tag style="font-style: italic;">®️ Meu Pace</tag>, 2024. Todos os direitos reservados.
+    </footer>
+</div>
+</body>
+</html>
